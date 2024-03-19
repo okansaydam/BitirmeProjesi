@@ -1,0 +1,239 @@
+<resources>
+    <string name="app_name">Marmara Üniversitesi Bilgisayar Programcılığı</string>
+    <string name="ders1">Algoritmanın tanımı ve algoritmalar ile ilgili temel kavramlar, algoritmaların performans analizi ve
+kodlanması, algoritma tipleri ve performansları bunun yanında yapısal programlamanın temel ilkeleri
+ve C programlama dilinin temel özelliklerinin öğretilmesi hedeflenmektedir. Bu kapsamda C
+programlama dilinde kullanılan değişkenler, veri tipleri, veri yapıları ve program kontrol deyimleri ile
+standart kütüphaneler, giriş-çıkış fonksiyonları, atama operatörleri, mantıksal operatörler,
+programlama yapısı, program kontrol komutları ve diğer standart fonksiyonlar tanıtılarak; sıralama ve
+arama yöntemleri, menü hazırlama, bağlı listeler, diziler, dosyalama ve port kullanımı üzerine
+yapılacak uygulamalarla öğrencilerimizin pratiğinin zenginleştirilmesi amaçlanmaktadır.</string>
+    <string name="ders2">İnternet ortamı ve web tasarımı, web tasarımında temel ilkeler, HTML dili temel etiketleri,
+HTML dili ile gelişmiş web işlemleri, HTML 5.0 ve W3C standartları, web editörüne girişyakın/uzak site kavramları ve yeni site oluşturma, metin işlemleri tablolar, resimlerle çalışma, çoklu
+ortam bileşenleri ve bağlantılar,CSS -Css paneli-kutu modeli ve Div tag\'ları, AP ögeleri- effectler,
+davranışlar - SPRY, formlar, site yönetimi ve yayınlama. BOOTSTRAP 4 framework’ ünü
+öğrenip HTML5-CSS3-JAVASCRIPT yoğunluğuna girmeden Responsive yani bütün cihazlarda
+uyumlu WEB siteleri oluşturmak. React kütüphanesini öğrenerek JAVASCRIPT programlamayı
+minimuma indirerek siteleriniz üzerindeki hakimiyeti arttırmak.</string>
+    <string name="ders3">İşletim sistemlerin genel yapısı, tek kullanıcılı işletim sistemleri, çok kullanıcılı işletim
+sistemleri. Proses yönetimi, Bellek yönetim, Disk yönetimi, Dosya sistemi yapısını öğrenir.
+Mantıksal ve fiziksel güvenlik kavramlarını bilir ve uygular. Temel Unix /Linux komutlarını bilir
+ve uygular. Unix/Linux tabanlı işletim sistemini kurabilir, yedekleyebilir, güvenlik ayarlarını
+yapabilir ve çıkan sorunları çözümleyebilir.</string>
+    <string name="ders4"> </string>
+    <string name="ders5"> </string>
+    <string name="ders6">Sayılar, cebir, denklem ve eşitsizlikler, fonksiyonlar, trigonometri, karmaşık sayılar, logaritma.
+Tek değişkenli fonksiyonlarda limit, süreklilik, türev kavramlarını öğretmek. Türev ve integral
+kavramlarını uygulamada kullanma becerisi sağlamak. Matematik bilgisini mühendislik
+problemlerini çözmede kullanabilme becerisi kazandırmak.</string>
+    <string name="ders7">YÖK tarafından öngörülen içerik uygulanacaktır.</string>
+    <string name="ders8">YÖK tarafından öngörülen içerik uygulanacaktır.</string>
+    <string name="ders9">Network işletim sistemlerinin yapısı, kurulması, kaynakların dağıtılması ve yönetilmesi.
+Windows sunucu tabanlı bir işletim sistemini kurmak yönetmek. DNS, DHCP, WINS gibi
+sunucuları kurmak ve yönetmek. Sunucuyu bir etki alanı sunucusu olarak yönetmek.</string>
+    <string name="ders10">Kavramsal, mantıksal ve fiziksel tasarımı hedefleyen temel veri tabanı konuları, kavramsal
+tasarımda ER modeli, mantıksal tasarımda ilişkisel model ve temel SQL komutları, dosya ve veri
+tabanı kavramları, ilişkisel veri tabanı tasarımı, normalizasyon, ilişkisel cebir, Microsoft SQL
+kurulumu ve kullanımı, SQL-Yapısal sorgulama dili temel komutları, tek tablodan sorgulamalar,
+aritmetiksel operatörler ve fonksiyonların kullanımı, gruplandırma ve birden fazla tabloda
+sorgulama. Veri tabanı temel kavramlarının tanıtılması ve MSSQL veri tabanı yönetim sistemi
+ile uygulama yapmak. .NET Core Entity Framework ile uygulama geliştirmek.</string>
+    <string name="ders11">Resim işleme programı hakkında temel bilgiler - kavramlar ve terimler, yenilikler - seçim
+işlemleri, rötuş ve dönüştürme - katmanlar, görevleri otomatikleştirme - maskeler ve kanallar,
+renkler ve ayarlamalar - boyama ve çizim, filitrelerle çalışma - tipografik tasarım, baskı işlemleri,
+web tasarımı – animasyon - 3d, animasyon temelleri, grafikler, metin işlemleri, semboller,
+animasyon oluşturma, ses ve videolar, animasyon içeriğini yükleme ve kontrol etme – belgeleri
+yayınlama. Bu derste renk bilgisi, grafik formatları, grafik dosya türleri, Adobe Photoshop
+programında resim düzenleme araçlarını kullanarak rötuş, düzenleme vb. işlemleri yapmayı,
+katmanlarda maskeler ve kanallarla çalışmayı öğrenir. Animasyon temellerini, 3D animasyon
+yapabilme için Animate ve 3Ds Max programlarını kullanmayı öğrenir.</string>
+    <string name="ders12">Görsel programlama ile ilgili genel tanımlar, nesne yönelimli programlama editör kullanımı, veri
+tipleri, değişkenler, diziler, operatörler, sınıf ve nesne kavramı, formlar ve özellikleri,
+karşılaştırma ve döngü deyimleri, ara yüzler ve gelişmiş nesneler, gelişmiş nesneler, diyalog
+pencereleri, giriş ve mesaj pencereleri, fonksiyonlar. Görsel programlama dillerinden (C#) birine
+ait özellikler ile ele alınan derleyici programın genel özelliklerini öğretmek; bu derleyiciyi
+kullanarak Windows işletim sistemi altında çalışan farklı türde yazılımlar geliştirmek.</string>
+    <string name="ders13"> </string>
+    <string name="ders14">İş kazaları, çevrede güvenliği tehdit edecek unsurlar, işyeri güvenliği, kişisel koruyucular ve
+kullanımı, kazalarda acil durum ve ilk yardım, işgüvenliğinin hukuksal boyutu, işgüvenliği
+mevzuatı. İş Sağlığı ve Güvenliğinin gerek sosyal gerekse iş hayatındaki önemi kavratılarak, bu
+alandaki son kanun düzenlemesi olan 6331 Sayılı İş Sağlığı ve Güvenliği Kanunu genel hatları
+ve Basım sektöründeki yaptırımları hakkında bilgi verilmektedir. Ayrıca Basım sektöründeki
+sağlığa zarar veren Fiziksel, Kimyasal, Psikolojik ve Biyolojik Faktörlerin etkileri ve iş kazaları
+ve meslek hastalıklarının nedenleri, önleme yöntemleri açıklanarak, ilk yardım ve önemi ana
+hatları ile anlatılmaktadır.</string>
+    <string name="ders15">YÖK tarafından öngörülen içerik uygulanacaktır.</string>
+    <string name="ders16">YÖK tarafından öngörülen içerik uygulanacaktır.</string>
+    <string name="ders17">YÖK tarafından öngörülen içerik uygulanacaktır.</string>
+    <string name="ders18">Önlisans yönetmeliğinde belirtilmiş olan işgünü süresince okulda kazanılan öğretilerin, sektörde
+beceri ve yetkinliğe dönüştürülmesini sağlayan uygulamalar. Marmara Üniversitesi Teknik
+Bilimler Meslek Yüksekokulu öğrencilerinin endüstri işletmelerinde uygulama becerilerini
+geliştirmeleri, teknolojik gelişmelerden yararlanmaları ve yönetim deneyimi kazanmalarını
+sağlamaktır.</string>
+    <string name="ders19">Bilgisayar ağları, ağ elemanları, ağ protokolleri. OSI mimarisi, IEEE mimarisi, bölgesel alan
+networkleri (LAN), ethernet, token-ring, FDDI, geniş alan networkleri (WAN), ISDN, ATM,
+DSL, kablolama protokoller, (IPX/SPX, NETBIOS, TCP/IP) network bağdaştırma elemanları
+(Hub, Switch, Router, Bridge, Gateway), network işletim sistemleri (NT, LUNIX,
+Windows2000), ağ güvenliği. TCP/IP nin temel kavramlarını öğrenmek ve yönlendiricileri
+programlamak.</string>
+    <string name="ders20">Nesne Tabanlı (Object Oriented) temel ilke ve kavramlar, Java Prgramlama Dili temel ilke ve
+kavramları, İfadeler ve işlem önceliği, Veri dönüşümleri, Kullanıcıdan girdileri alma, Grafiğe
+giriş, Package ve Import Kavramı, Nesne Oluşturulması Ve Nesne Referansları, String Sınıfı Ve
+Metodları,Random Ve Math Sınıfları, Giriş-çıkış (I/O) İşlemlerinde Kullanılan Komutlar, Kontrol Yapıları
+- Tekrarlı Yapılar - Döngüler, Dizi Kavramı, Dizi ve İndislere İsim Verirken Dikkat Edilecek
+Noktalar, Tek Boyutlu Diziler, for-each Benzeri Döngü Yapısı ile Dizi Elemanlarına Erişmek,
+İki Boyutlu Diziler, Çok Boyutlu Diziler, Dizi Elemanlarının Başka Bir Diziye Kopyalanması,
+String İşlemleri, Arraylist ile Dinamik Dizi Tanımlama, Sıralama Algoritmaları, Arama
+Algoritmaları, UML Diyagramları, Sınıf, Nesne, Nesne Üyelerine Erişim Belirteçleri, Method
+Kavramı, Kalıtım, Kapsülleme, Çok Biçimlilik, Grafik.</string>
+    <string name="ders21">İnternet ortamının analizi, yazılım dilleri, Python yazılımı, MySQL, Mongo DB İnternet
+ortamında çalışabilen açık kaynak kodlu programlar yazma yeterlikleri kazandırılacaktır.
+Uygulama yazılımlarını kurulumu ve testi, Python giriş (kod yazım formatı, değişkenler ve giriş
+komutları), operatörler ve diziler, kontrol ve döngüsel yapılar, global değişkenler ve form da Get
+Post metodu kullanımı, fonksiyonlar, Python\' da kullanılan hazır fonksiyonlar, Python\' da dosya
+yükleme, Python\' da veri tabanı işlemleri. Python Flask çerçevesi anlatımı.</string>
+    <string name="ders22">İstemci/Sunucu özellikli bir veritabanı yazılımında programlama mantığını kavrayabilme, arayüz
+hazırlayabilme ve raporlar oluşturabilme. Temel veri tabanı kavramları, veri tabanı tasarımı,
+stored procedure, indeksler, fonksiyonlar, triggers, cursors, güvenlik, transaction kavramları ve
+uygulamaları yer almaktadır. İstemci tarafta SQL Server erişimi programlama. Alt Sorgular,
+View (Görünümler), Transaction, T-SQL (Transact SQL), Stored Procedure (Saklı Yordamlar),
+Cursor (imleç) kullanımı, Trigger (Tetikleyici) Kullanımı, Veritabanında Güvenlik, İleri Veri
+tabanı Uygulamaları.</string>
+    <string name="ders23">Görsel programlama dilleriyle (C#) , veri tabanı bağlantılı kompleks uygulamalar geliştirmek.
+Gelişmiş arayüz tasarımı, formlar arası veri transferi, veri tabanı öğeleri, veritabanı tasarımı, veri
+tabanı bağlantısı, ileri düzey uygulama geliştirme. Bunun yanı sıra görsel programlama dillerinin
+(C#) desteklemiş olduğu oyun geliştirme motorları yardımıyla uygulama-oyun geliştirme.</string>
+    <string name="ders24"> </string>
+    <string name="ders25">YÖK tarafından öngörülen içerik uygulanacaktır.</string>
+    <string name="ders26">Java ile ileri nesne yönelimli programlama uygulamaları yapmak. Alt programlar, fonksiyonlar,
+grafik uygulamaları, akışlar, dosya işlemleri, ikili dosyalar, hata yakalama, yığın yapısı, kuyruk
+yapısı, tek bağlı doğrusal listeler, tek bağlı dairesel listeler, çift bağlı doğrusal listeler, çift bağlı
+dairesel listeler, thread – multithread kavramları, veri tabanı bağlantısı. 2D ve 3D animasyon ve
+oyun tasarımı, Java 8 ile gelen yenilikler, JSP kavramı, JavaFX.</string>
+    <string name="ders27">Asp.net giriş, ASP.NET de standart kontroller (imagebutton, table, dropbox, listbox,
+checklistbox, bulletedlist, hiddenfield, treeview, calender, adrotator, fileupload, wizard,
+multiview), validation, veritabanı uygulamaları, session, application, get ve post yöntemleri,
+master page, login, web user control, Asp.net Css kullanımı. React kullanıcı ara birimi oluşturma
+anlama, ASP .NET Core 3.0 MVC web uygulamaları oluşturma.</string>
+    <string name="ders28">Mobil cihazlar, işletim sistemleri ve programlamaya giriş, mobil cihazlarda kullanılan işletim
+sistemlerinin analizi (Android, IPhone, Windows), yazılım geliştirme ortamının (SDK)
+bileşenleri ve ayarları, mobil arayüz mimarisi, mobil cihazların ağ yapıları, veri tabanı
+motorlarının kullanımı, mobil cihazların haberleşmesi ve dosya paylaşımı, API ler, arayüz
+geliştirme, mobil cihazlarda web servisleri kullanımı, 2D ve 3D grafiklerin oluşturulması.</string>
+    <string name="ders29">Bilgisayar teknolojisi ve programlama konularında öğrencilerin araştırma, bilgi yenileme ve yeni
+bilgiler öğrenerek mesleki öz güvenlerini kazanacakları eğitim, teknoloji, üretim yönetimi ve
+maliyetle ilgili bilgileri kullanıma yönelik, ders programında yer alan dersler doğrultusunda proje
+oluşturma.</string>
+    <string name="ders30"> </string>
+    <string name="ders31">Öğrencinin, toplumsal hizmeti sunacağı alanına dair temel bilgileri ve uygulama aşamaları.
+Üniversite kültürü çerçevesinde öğrencilere topluma karşı sosyal sorumluluk kazandırmaya
+yönelik etkinlikler. Öğrencinin toplumsal bilinç kazanmak suretiyle kişisel gelişimi.</string>
+    <string name="ders32"> </string>
+    <string name="ders33">İstatistiğe giriş, tanımlayıcı istatistikler, merkezi eğilim ölçüleri, yayılma ölçüleri. Program
+yardımıyla tanımlayıcı istatistik nasıl yapılır? Dağılımlar, program yardımıyla dağılım testleri
+nasıl yapılır? Sıklık tabloları ve tanımlayıcı grafiklerin hazırlanması, örneklem seçimi, anket
+hazırlama ve değerlendirme. Bağımlı-bağımsız grup ortalamalarının karşılaştırılması, tek-iki
+yönlü varyans analizi, nonparametrik testler, güven sınırları, z-testi, Chi-kare testi, Çapraz
+tablolar, regrasyon analizi, çok değişkenli istatistik analiz yöntemleri.</string>
+    <string name="ders34">Ofis programlarının temel bileşenleri, kelime işlemci programı- Word\'e giriş, metin ve
+biçimlendirme işlemleri, ekle menüsü ile şekil- grafik- tablo vb. ekleme ve düzenleme,
+içindekiler- şekiller tablosu oluşturma, sayfa düzeni-alt/üst bilgi- kapak- gözden geçirme
+menüsü- makrolar, Excel elektronik hesap tablolama programına giriş, kenarlık ve
+biçimlendirme işlemleri, formüller- fonksiyonlar-grafik oluşturma, filtreler - sıralama,
+PowerPoint sunu hazırlama programına giriş ve etkili sunum hazırlama teknikleri, efektler ile
+etkili sunu hazırlama, OneNote dijital not defteri, Outlook elektronik posta yönetim programı.</string>
+    <string name="ders35">Elektronik teknolojisi ile ilgili temel bilgi ve beceriler kazandırmak. Analog ve sayısal elektronik
+devrelerle ilgili temel kavramlar ve devre yapıları öğretmek. Temel elektrik bilgisi, elektronik
+prensipler ve kanunlar, elektronikte kullanılan temel yarıiletken devre elemanları, direnç,
+kondansatör, diyot, transistör, basit R,L,C devreleri, doğrultucu devreleri, sayı sistemlerini ve
+ikili sayı sistemleri ile işlem yapma, temel kapı devrelerinin yapıları, (NOT, AND, OR, EXOR,
+EXNOR, BUFFER vb.) çalışmaları, (NOT, AND, OR, EXOR, EXNOR, BUFFER vb.)
+çalışmaları, temel kapı devrelerinin çalışmalarının öğrenilmesi ve uygulaması. Çözümleme
+metotlarının (Karnough metodu) öğrenilmesi. Çeşitli Basitleştirme yöntemleri ve verilen çeşitli
+örnekler ile öğrenilmesi.</string>
+    <string name="ders36">Bilgisayar sistemleri, proje ile ilgili genel tanımlar, yazılımda kalitenin anlamı, yazılım
+geliştirme yöntem bilimleri (standartlar), projede yürütmenin planlanması, projenin yürütülmesi,
+isterlerin tespiti, tasarım süreci, yazılım geliştirme modelleri, yazılım gerçekleştirme, yazılım
+testi, yazılım bakımı, konfigürasyon yönetimi, proje bitişi, projenin hayata geçirilmesi.</string>
+    <string name="ders37">Bilim ve araştırma kavramları, bilim ve araştırmanın ilişkisi, araştırmanın gereği ve önemi, bilim
+ve araştırmanın temel amaçları, bilgi edinme yolları, araştırma sonuçlarını rapor hâline
+dönüştürme, sunu hazırlama, araştırma önerisi, araştırma sonuçlarını rapor hâline dönüştürme.
+Öğrencinin araştırma sürecini tanıması, bu süreçte uygulanacak adımları ve neler yapılması
+gerektiğini bilmesi ve sonuçta araştırmasını genel kurallar çerçevesinde raporlandırması.</string>
+    <string name="ders38">Bu derste meslek etiği ile ilgili yeterliklerinin kazandırılması amaçlanmaktadır. Etik ve ahlak
+kavramlarını incelemek, Etik sistemlerini incelemek, Ahlakın oluşumunda rol oynayan faktörleri
+incelemek, Meslek etiğini incelemek, Mesleki yozlaşma ve meslek hayatında etik dışı
+davranışların sonuçlarını incelemek. Giriş, etik kuramları, profesyonel etik, sorumluluk,
+mahremiyet, veri koruma, fikri mülkiyet, telif, patent, lisans anlaşmaları, internet, bilişim suçları,
+toplumsal etkiler.</string>
+    <string name="ders39">Dersin amacı, dijital devrelerin ve mantığın arka planına sahip bir dijital bilgi işlem makinesinin
+tasarımı ve inşası için bilgi sağlamaktır. Bilgisayar kullanımı, tasarım ilkeleri ve fiziksel tanım
+ile yazılımın bilgisayar sistemiyle nasıl ilişkili olduğu hakkında bilgi sahibi olur. Statik elektriğe
+karşı önlemler, donanım malzemelerinin özellikleri, bilgisayar kasasının güç gereksinimi,
+anakart, işlemci ve bellek birimleri, anakart, işlemci ve bellek birimleri, disk sürücüleri, disk
+sürücüleri, donanım kartları, donanım kartları, çevre birimleri, çevre birimleri, bıos, bıos hata
+mesajları, hata mesajları.</string>
+    <string name="ders40">İntegral ve uygulamaları, lineer olmayan denklem sistemlerin çözümü, Simpleks yöntemle lineer
+programlama problemlerinin çözümü, Hessian matrisi yardımıyla çok değişkenli fonksiyonların
+optimizasyonu, ulaştırma problemleri ve atama problemleri, PERT- CPM -TSP, PERT-CPM,
+MATLAB uygulamaları, interpolasyon polinomları ve hataları, özdeğerler ve özvektörler,
+sayısal türev, sayısal integral, indirgeme bağıntıları Hanoi Kulesi-Fibonacci dizisi- Altın oran.</string>
+    <string name="ders41">Gömülü sistem nedir, gömülü sistem donanım yapıları, ilk gömülü program yazma, derleme,
+yükleme, çalıştırma ve hata ayıklama, gömülü sistemlerde hafıza elemanları, çevre birimleri,
+kesmeler, gömülü sistem olanaklarını bir araya getirmek, haberleşme protokolleri: Usb, RS232,
+I2C, GPIB, Wi-fi, Infra Red, gömülü sistem işletim sistemleri, Linux örnekleri, gömülü
+sistemlerde Linux üzerinde uygulama geliştirme, dış dünyadaki fiziksel verilerin elde edilmesi
+ve kontrol, gömülü sistem özelliklerinin ek donanımlarla arttırılması, elde edilen verilerin LCD
+ekran ile dış dünyaya görsel olarak aktarımı, gömülü sistemler ile haberleşme uygulamaları,
+Görsel Linux programlama ortamının kullanılması.</string>
+    <string name="ders42">Zeki sistemlerin genel yapısını öğrenmek, Uzman sistemler, Prolog, Bulanık Mantık, Sezgisel
+Algoritmalar, Yapay Sinir Ağları. Bu yöntemleri kullanarak problem çözümü. MATLAB
+kullanımı, MATLAB toolbox’ larını kullanarak uygulama geliştirme.</string>
+    <string name="ders43">Öğrenciye internet ortamında çalışabilen grafik ve animasyon programları yazma yeterlilikleri
+kazandırmaktır. Formlar, animasyonun iyileştirilmesi, animasyonların yayınlanması,
+ActionScript temelleri, fonksiyonlar - olaylar, sınıflar, karar yapıları, matematik işlemleri,
+metinler, diziler, kodlama ile grafik oluşturmak, çoklu ortam işlemleri, gelişmiş etkileşim.</string>
+    <string name="ders44">Öğrencilere veri madenciliği ile ilgili temel uygulamaları, kavramları ve teknikleri tanıtmak.
+Öğrencileri bağımsız araştırma yapmaya hazırlamak. Veri madenciliğine giriş, veri temizleme ve
+hazırlama, sınıflandırma yöntemleri, demetleme yöntemleri, ilişkilendirme kuralları, metin
+madenciliği, web madenciliği, veri madenciliği programları ve uygulamaları.</string>
+    <string name="ders45">Kablosuz ağ teknolojilerinin genel yapısını öğrenmek ve kullanarak kablosuz ağkurulum
+işlemlerini yapabilmek. Kablosuz ağ türleri ve sınıflaması, kablosuz yerel alan ağları (WLAN),
+kablosuz kişisel alan ağları (WPAN), kablosuz geniş alan ağları (WWAN), kablosuz ağlarda
+gezginlik (mobilite) yönetimi, GSM ağ altyapısı, yol atama algoritmaları, gezgin İnternet
+protokolleri, yeni nesil kablosuz ağlarda yönlendirme protokolleri, yeni nesil kablosuz ağ
+protokolleri.</string>
+    <string name="ders46">Öğrenciyi, insan görüntüleme için görüntü bilgilerine uygulanan haliyle dijital görüntü işlemede
+halihazırda kullanılan analitik araçlara ve yöntemlere tanıtmak. Daha sonra bu araçları
+laboratuarda görüntü restorasyonu, iyileştirme ve sıkıştırma için uygulayın. Görüntü işlemenin
+temelleri, görme olayının oluşumu, bilgisayarda görüntü oluşturmak, sayısal görüntünün
+temelleri, görüntü iyileştirme teknikleri, sayısal görüntüler için temel filtreleme teknikleri.</string>
+    <string name="ders47">Bilgisayarlı veri toplama uygulamaları, kontrol uygulamaları ve analiz işlemleri. Bilgisayarın
+veri toplama ve kontrol uygulamalarında kullanımına ilişkin temel konuların öğretilmesi ve
+uygulamalarla pekiştirilmesi. Laplace dönüşümleri. 1. ve 2. Dereceden sistemlerin Laplace
+analizi ve Kontrolü. MATLAB altında 1. Ve 2. Dereceden lineer sistemlerin analizi ve kontrolü.</string>
+    <string name="ders48">Ağ trafik analizi, TCP/IP paket yapısı ve analizi, sniffing kavramı, paket analizi ve sniffing için
+kullanılan araçları, bağlantı problemi olan ağ trafiği analizi, DNS / DHCP trafiği paket analizi,
+ağ trafiğinde forensic analiz, yerel ağlarda snifferlari belirleme ve engelleme, protokol analizi,
+IDS/IPS (saldırı tespit ve engelleme) teknolojileri, IDS/IPS yerleşim planlaması, IDS/IPS atlatma
+araçları ve korunma yöntemleri, DDOS ve çeşitleri, örnek DDOS saldırı incelemeleri, BOTNET
+dünyası, DDOS atak engelleme yöntemleri.</string>
+    <string name="ders49">Kariyer ile ilişkili kavramsal çerçeve, kariyer yönetimi araçları, kariyer yönetimi uygulamaları,
+kariyer devreleri, kariyer sorunları, aday sağlama yolları, iş arama kanalları, cv hazırlama, yeni
+kariyer yaklaşımları, girişimcilik ve kariyer.</string>
+    <string name="ders50">Proje nedir? Proje yönetimine giriş, proje yaşam döngüsü -proje yöneticisinin özellikleri - proje
+ekibi, projenin planlanması ve iş paketleri- görevler- isterler, proje giderleri ve bütçelendirme,
+temel çizelgeleme yaklaşımları GANTT, Node Networks, CPM, PDM - PERT, kaynakların
+projeye dağılımı, risk yönetimi, araç ve teknikleri, projenin yürütülmesi ve kontrolü,
+değerlendirme ve denetleme, projenin bitirilmesi ve hayat geçirilmesi, MS_Project.</string>
+    <string name="ders51">Makinaların sınıflanması, optik ve refleks bakaçlar, analog ve dijital makinalar, enstantane,
+diyafram, enstantane-diyafram ilişkisi, alan derinliği, objektifler, analog ve dijital objektif
+farkları, filmlerin hızı, dijital algılayıcılar, dijital ve analog çarpan farkları.</string>
+    <string name="ders52">Trafikte yaya, sürücü ve yolcu olarak güvenli davranışların kazanılması için ihtiyaç duyulan
+bilgiler olan; bir sistem olarak trafiğin unsurları, davranışsal dinamikler, kültürel dinamikler,
+önleyici ve güvenli trafik kuralları.</string>
+
+    <string name="galeri_slider">Galeri Slider</string>
+    <string name="title_activity_galeri_slider">Galeri Slider</string>
+
+</resources>

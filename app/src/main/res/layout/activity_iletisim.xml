@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teknikbilimler2"
+    tools:context=".iletisim">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/marmara"
+        android:text="Öğrenci İşleri Telefon"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/iletisim_button"
+        android:drawableLeft="@android:drawable/ic_menu_call"
+        android:text="0 216 777 4061"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle" />
+
+    <TextView
+        android:id="@+id/textViewNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/iletisim_button"
+        android:drawableLeft="@android:drawable/ic_menu_call"
+        android:text="0 216 777 4058"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintTop_toBottomOf="@id/textViewNumber1" />
+
+    <TextView
+        android:id="@+id/textViewNumber3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/iletisim_button"
+        android:drawableLeft="@android:drawable/ic_menu_call"
+        android:text="0 216 777 4059"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintTop_toBottomOf="@id/textViewNumber2" />
+
+    <TextView
+        android:id="@+id/textViewEmailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/marmara"
+        android:text="E-posta"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/textViewNumber3" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/iletisim_button"
+        android:text="tbmyo@marmara.edu.tr"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="normal"
+        app:layout_constraintTop_toBottomOf="@id/textViewEmailTitle" />
+
+    <TextView
+        android:id="@+id/textViewAddressTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/marmara"
+        android:text="Adres"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/textViewEmail" />
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/iletisim_button"
+        android:text="Orhantepe Mahallesi, Turgut Özal Bulvarı, No: 21 Dragos, 34865 Kartal/İstanbul"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintTop_toBottomOf="@id/textViewAddressTitle" />
+
+    <ImageView
+        android:id="@+id/imageViewMap"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/map_background"
+        android:clickable="true"
+        android:contentDescription="Marmara Üniversitesi Mehmet Genç Külliyesi Haritası"
+        android:focusable="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewAddress" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

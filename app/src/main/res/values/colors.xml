@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="teknikbilimler1">#B6DD70</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bgColor">#FFFFFFFF</color>
+    <color name="hakkindaBg">#FFFFFFFF</color>
+    <color name="bgColor2">#FF000000</color>
+    <color name="marmara">#003D72</color>
+    <color name="teknikbilimler2">#76BD22</color>
+    <color name="teknikbilimler3">#1B5633</color>
+    <color name="marmara2">#0071CE</color>
+    <color name="buton">#A8A8AA</color>
+    <color name="light_green">#C5DA9E</color>
+    <color name="light_blue">#314C66</color>
+    <color name="light_grey">#9C9898</color>
+    <color name="pantone_red">#8A2432</color>
+    <color name="pantone_gray">#D1D0CE</color>
+    <color name="pantone_gray_dark">#63656A</color>
+    <color name="light_grey2">#E6E2E2</color>
+    <color name="logo">#003D72</color>
+
+</resources>

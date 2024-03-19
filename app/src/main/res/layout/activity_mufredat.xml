@@ -1,0 +1,1663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mufredat">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:background="@drawable/egitmenler_button"
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1. YARIYIL"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+                <TableLayout
+                    android:visibility="gone"
+                    android:id="@+id/tbl1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow android:background="@color/pantone_red">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.8"
+                            android:gravity="center_vertical"
+                            android:text="Ders Adı"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="Kredi"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                    <TableRow android:background="@color/buton">
+
+                        <TextView
+                            android:id="@+id/ders1"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.8"
+                            android:gravity="center_vertical"
+                            android:text="Algoritma ve Programlamaya Giriş"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/kredi1"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="5"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+                    <TableRow android:background="@color/buton">
+
+                        <TextView
+                            android:id="@+id/ders2"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.8"
+                            android:gravity="center_vertical"
+                            android:text="Web Tasarım"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/kredi2"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="4"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+                    <TableRow android:background="@color/buton">
+
+                        <TextView
+                            android:id="@+id/ders3"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.8"
+                            android:gravity="center_vertical"
+                            android:text="İşletim Sistemleri 1"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/kredi3"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="5"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+                    <TableRow android:background="@color/buton">
+
+                        <TextView
+                            android:id="@+id/ders4"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.8"
+                            android:gravity="center_vertical"
+                            android:text="Seçimlik Ders - 1"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/kredi4"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="4"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+                    <TableRow android:background="@color/buton">
+
+                        <TextView
+                            android:id="@+id/ders5"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.8"
+                            android:gravity="center_vertical"
+                            android:text="Seçimlik Ders - 2"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/kredi5"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="3"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+                    <TableRow android:background="@color/buton">
+
+                        <TextView
+                            android:id="@+id/ders6"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.8"
+                            android:gravity="center_vertical"
+                            android:text="Matematik"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/kredi6"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="5"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+                    <TableRow android:background="@color/buton">
+
+                        <TextView
+                            android:id="@+id/ders7"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.8"
+                            android:gravity="center_vertical"
+                            android:text="Türk Dili 1"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/kredi7"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+                    <TableRow android:background="@color/buton">
+
+                        <TextView
+                            android:id="@+id/ders8"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.8"
+                            android:gravity="center_vertical"
+                            android:text="İngilizce 1"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/kredi8"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+                </TableLayout>
+
+            <Button
+                android:background="@drawable/egitmenler_button"
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2. YARIYIL"
+                android:textColor="@color/white"
+                android:textSize="22sp"/>
+
+                <TableLayout
+                android:visibility="gone"
+                android:id="@+id/tbl2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow android:background="@color/pantone_red">
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:text="Ders Adı"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="Kredi"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders9"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="İşletim Sistemleri 2"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi9"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders10"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Veri Tabanı Yönetim Sistemleri 1"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi10"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders11"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Grafik Animasyon 2"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi11"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders12"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Görsel Programlama 1"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi12"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders13"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Seçimlik Ders - 3"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi13"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders14"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="İş Sağlığı ve Güvenliği"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi14"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders15"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Türk Dili 2"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi15"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders16"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="İngilizce 2"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi16"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:background="@drawable/egitmenler_button"
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3. YARIYIL"
+                android:textColor="@color/white"
+                android:textSize="22sp"/>
+
+                <TableLayout
+                android:visibility="gone"
+                android:id="@+id/tbl3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow android:background="@color/pantone_red">
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:text="Ders Adı"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="Kredi"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders17"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Atatürk İlkeleri ve İnkılap Tarihi 1"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi17"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders18"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Staj Uygulaması"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi18"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders19"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Bilgisayar Ağ Sistemleri"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi19"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders20"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Nesne Yönelimli Programlama 1"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi20"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders21"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="İnternet Programlama 1"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi21"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders22"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Veri Tabanı Yönetim Sistemleri 2"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi22"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders23"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Görsel Programlama 2"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi23"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders24"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Seçimlik Ders - 4"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi24"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:background="@drawable/egitmenler_button"
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4. YARIYIL"
+                android:textColor="@color/white"
+                android:textSize="22sp"/>
+
+                <TableLayout
+                android:visibility="gone"
+                android:id="@+id/tbl4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow android:background="@color/pantone_red">
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:text="Ders Adı"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="Kredi"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders25"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Atatürk İlkeleri ve İnkılap Tarihi 2"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi25"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders26"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Nesne Yönelimli Programlama 2"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi26"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders27"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="İnernet Programlama 2"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi27"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders28"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Mobil Programlama"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi28"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders29"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Bitirme Projesi"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi29"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders30"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Seçimlik Ders - 5"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi30"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders31"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Topluma Hizmet Uygulamaları"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi31"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders32"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Üniversite Seçimlik Ders"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi32"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:background="@drawable/egitmenler_button"
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="S1: 1. YARIYIL"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+                <TableLayout
+                android:visibility="gone"
+                android:id="@+id/tbl5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow android:background="@color/pantone_red">
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:text="Ders Adı"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="Kredi"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders33"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Bilgisayarla İstatistik Uygulamaları"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi33"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders34"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Ofis Yazılımları"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi34"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders35"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Temel Elektronik"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi35"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:background="@drawable/egitmenler_button"
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="S2: 1.YARIYIL"
+                android:textColor="@color/white"
+                android:textSize="22sp"/>
+
+                <TableLayout
+                android:visibility="gone"
+                android:id="@+id/tbl6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow android:background="@color/pantone_red">
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:text="Ders Adı"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="Kredi"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders36"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Yazılım Geliştirme"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi36"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders37"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Araştırma Yöntem ve Teknikleri"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi37"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders38"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Meslek Etiği"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi38"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:background="@drawable/egitmenler_button"
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="S3: 2. YARIYIL"
+                android:textColor="@color/white"
+                android:textSize="22sp"/>
+
+                <TableLayout
+                android:visibility="gone"
+                android:id="@+id/tbl7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow android:background="@color/pantone_red">
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:text="Ders Adı"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="Kredi"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders39"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Bilgisayar Donanımı"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi39"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders40"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Ayrık Matematik"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi40"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:background="@drawable/egitmenler_button"
+                android:id="@+id/btn8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="S4: 3. YARIYIL"
+                android:textColor="@color/white"
+                android:textSize="22sp"/>
+
+                <TableLayout
+                android:visibility="gone"
+                android:id="@+id/tbl8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow android:background="@color/pantone_red">
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:text="Ders Adı"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="Kredi"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders41"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Gömülü Sistemler"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi41"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders42"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Bilgisayar Zeki Sistem Uygulamaları"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi42"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                        <TextView
+                            android:id="@+id/ders43"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.8"
+                            android:gravity="center_vertical"
+                            android:text="Grafik Animasyon 2"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/kredi43"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="4"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+                    <TableRow android:background="@color/buton">
+
+                        <TextView
+                            android:id="@+id/ders44"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.8"
+                            android:gravity="center_vertical"
+                            android:text="Veri Madenciliği"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/kredi44"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="4"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+            </TableLayout>
+
+            <Button
+                android:background="@drawable/egitmenler_button"
+                android:id="@+id/btn9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="S5: 4.YARIYIL"
+                android:textColor="@color/white"
+                android:textSize="22sp"/>
+
+                <TableLayout
+                android:visibility="gone"
+                android:id="@+id/tbl9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow android:background="@color/pantone_red">
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:text="Ders Adı"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="Kredi"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders45"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Kablosuz Ağ Sistemleri"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi45"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders46"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Görüntü İşleme"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi46"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders47"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Bilgisayarlı Veri Toplama ve Kontrol"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi47"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:background="@drawable/egitmenler_button"
+                android:id="@+id/btn10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="US1: 4. YARIYIL"
+                android:textColor="@color/white"
+                android:textSize="22sp"/>
+
+                <TableLayout
+                android:visibility="gone"
+                android:id="@+id/tbl10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow android:background="@color/pantone_red">
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:text="Ders Adı"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="Kredi"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders48"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Bilgi Güvenliği"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi48"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders49"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Kariyer Gelişimi"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi49"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders50"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Proje Yönetimi"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi50"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                    <TextView
+                        android:id="@+id/ders51"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center_vertical"
+                        android:text="Fotoğrafçılık"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/kredi51"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </TableRow>
+                <TableRow android:background="@color/buton">
+
+                        <TextView
+                            android:id="@+id/ders52"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.8"
+                            android:gravity="center_vertical"
+                            android:text="Trafik Güvenliği"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/kredi52"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="3"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

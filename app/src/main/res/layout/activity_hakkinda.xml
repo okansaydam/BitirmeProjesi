@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/marmara"
+    tools:context=".hakkinda">
+
+
+    <TextView
+        android:id="@+id/textViewBaslik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="Program Tanımları"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/hakkindaBg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBaslik">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Kuruluş"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teknik Bilimler Meslek Yüksekokulu Yükseköğretim Kurulu'nun 23 Ocak 1991 tarihli kararı ile Marmara Üniversitesi Rektörlüğü'ne bağlı olarak kurulmuştur. Bilgisayar Programcılığı Programı, Teknik Programlar Bölümü bünyesinde Okulumuzun kuruluşundan itibaren yer almaktadır."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Kazanılan Derece"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bilgisayar Programcılığı Teknikeri"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Kabul ve Kayıt Koşulları"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bilgisayar Teknolojileri Bölümüne ÖSYM tarafından yapılan LYS (Lisans Yerleştirme Sınavı) sayısal ağırlık puanı ile kayıt yapılabilir. Ayrıca, Meslek Lisesi bilgisayar bölümü mezunları sınavsız geçiş haklarını kullanıp, bölümümüze kayıt yaptırabilirler. Yukarıda belirtilen kabul ve kayıt koşulları yanında, üçüncü yarıyıl başında diğer yüksek öğretim kurumlarının ilgili bölümlerinden yatay geçiş yolu ile bölümümüze öğrenci kabul edilmektedir."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Önceki Öğrenmenin (formal, in-formal, non-formal) Tanınması Hakkında Kurallar"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yatay geçiş ile kayıt yaptıracak öğrenciler için Yükseköğretim kurumları Yatay Geçiş Yönetmeliği uygulanmaktadır."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Yeterlilik Koşulları ve Kuralları"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yeterlilik zorunlulukları ve yönetmeliğe uygunluk YÖK tarafından belirlenir."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Program Profili"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Geniş iş olanağı olan bu programda öğrenciler; Bilgisayar yazılım problemleri tanımlamayı ve çözmeyi, bilgisayar yazılım ve donanım uygulamaları için gerekli çağdaş teknikleri ve hesaplama araçlarını kullanabilmeyi, mesleki ve etik sorumluluk anlayışına sahip, günün şartlarına göre nesne tabanlı prgramlama dillerinden en az birine hakim, veri tabanı uygulamaları geliştirebilen, dinamik ve statik web tasarımı yapabilen, Linux ve Windows tabanlı işletim sistemlerini yönetebilen, ağ tanımlamalarına ve TCP/IP protokollerine vakıf, iş yerinin ve personelin iş güvenliğini sağlama yetisi kazanacak şekilde öğrenim yapmaktadırlar."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Mezunların İstihdam Profilleri (örneklerle)"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özel ve devlet şirketlerinin bilişim departmanları, hastanelerin otomasyon sistemlerinden sorumlu departmanlar, Web tasarımı ve servis sağlayıcı şirketler, bankaların ve büyük marketlerin operasyon bölümleri, yazılım ve uygulama geliştirme departmanları."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Üst Derece Programlarına Geçiş"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buradan mezun olan öğrencilerimiz Öğrenci Seçme Yerleştirme Merkezi tarafından düzenlenmekte olan Dikey Geçiş sınavından öngörülen puanı alanlar teknoloji ve mühendislik fakültelerinin Bilgisayar Mühendisliği, eğitim fakültelerinin BÖTE gibi bölümlerine geçiş yapabilirler."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Sınavlar, Ölçme ve Değerlendirme"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Marmara Üniversitesi Önlisans ve Lisans Eğitim-Öğretim ve Sınav Yönetmeliği” uyarınca bağıl değerlendirme sistemi uygulanmaktadır. Ara sınaların % 40’ı final sınavının % 60’ ı not ortalamasını verir. ara sınav değerlendirmesini öğretim üyesi proje çalışmları, ödev ve laboratuar değerlendirmeleri olarak gruplandırabilir."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Mezuniyet Koşulları"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kayıtlı olduğu öğretim programının ders, uygulama, staj gibi tüm gereklerini “Marmara Üniversitesi Önlisans ve Lisans Eğitim-Öğretim ve Sınav Yönetmeliği” hükümlerine göre başarıyla tamamlamak ve Genel Ağırlıklı Not Ortalamasının (GANO) en az 2,00 olması gerekmektedir."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
